@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<component name="TestNode" extends="Group">
+	<script type="text/brightscript" uri="TestNode.brs" />
+	<children>
+		<Poster 
+			id="itemPoster" 
+			translation="[ 0, 0 ]"/>
+
+		<Rectangle
+			id="posterBox"
+			translation="[ 0, 0 ]"
+			color="0x00000000">
+
+			<Label 
+				id="posterLabel"
+				color="0xFFFFFFCC"
+				wrap="true"
+				vertAlign="center"
+				horizAlign="center"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum eleifend enim quis efficitur."
+				font="font:MediumSystemFont"/>
+		</Rectangle>
+
+        <Rectangle
+			id="bottomBox"
+			translation="[ 0, 0 ]"
+			color="0x000000FF"
+			width="500"
+			height="500"
+			opacity="0.7">
+		</Rectangle>
+
+        <Rectangle
+			id="topBox"
+			translation="[ 0, 0 ]"
+            color="0xFFFFFFFF"
+            width="400"
+			height="400">
+		</Rectangle>
+	</children>
+</component>
